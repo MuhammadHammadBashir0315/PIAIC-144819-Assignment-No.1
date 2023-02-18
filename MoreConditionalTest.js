@@ -1,0 +1,17 @@
+var User = "Hammad";
+var User2 = "hammad";
+var num1 = 8;
+var arr = ["Ejaz", "Tayyab", "Hammad"];
+console.log(User === "Hammad" ? "true" : "false");
+console.log(User === "HaMmad" ? "true" : "false");
+console.log(User2.toLowerCase() === "hammad" ? "true" : "false");
+console.log(User2.toLowerCase() === "Hammad" ? "true" : "false");
+console.log(num1 === 8 ? "true" : "false");
+console.log(num1 === 7 ? "true" : "false");
+console.log(num1 !== 8 ? "true" : "false");
+console.log(num1 !== 7 ? "true" : "false");
+console.log(num1 <= 8 ? "true" : "false");
+console.log(num1 >= 7 ? "true" : "false");
+console.log(User && User2 ? "true" : "false");
+console.log(User || User2 ? "true" : "false");
+console.log(arr.includes("Ejaz"));
